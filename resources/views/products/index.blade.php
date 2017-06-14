@@ -3,9 +3,6 @@
 @section ('content')
 
   <div class="col-12 col-md-9">
-    <p class="float-right hidden-md-up">
-      <button type="button" class="btn btn-primary btn-sm" data-toggle="offcanvas">Toggle nav</button>
-    </p>
     <div class="jumbotron">
       <h1>Welcome to Simple Shop</h1>
       <hr>
