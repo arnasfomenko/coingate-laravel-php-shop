@@ -113,7 +113,7 @@ class CartController extends Controller
       'receive_currency'  =>  $receive_currency,
       'callback_url'      => 'http://95.181.247.62/cart/callback?token='.$token,
       'cancel_url'        => 'http://95.181.247.62/cart',
-      'success_url'       => 'hhttp://95.181.247.62/myorders',
+      'success_url'       => 'http://95.181.247.62/myorders',
      );
 
      //Package -> coingate-php
