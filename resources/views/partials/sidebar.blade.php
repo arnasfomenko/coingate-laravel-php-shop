@@ -39,8 +39,10 @@ $totalPrice = $cart->totalPrice;
       @endif
       @if(Auth::check())
         <a href="/cart/checkout" class="btn btn-outline-primary">Checkout</a>
+        <a href="/cart/destroy" class="btn btn-outline-primary">Empty cart</a>
       @else
         <a href="/cart/destroy" class="btn btn-outline-primary">Empty cart</a>
+        <br>
         <b>Please <a href="/login"><u>Login</u></a> to checkout</b>
       @endif
     </div>
