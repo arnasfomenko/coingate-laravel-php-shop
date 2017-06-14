@@ -24,7 +24,7 @@
                 <a class="nav-link" href="/login">Login</a>
               </li>
             @else
-            <li class="nav-item dropdown">
+            <li class="nav-item ml-auto dropdown">
               <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">{{ Auth::user()->name }}</a>
               <div class="dropdown-menu">
                 <a class="dropdown-item" href="/myorders">My orders</a>
