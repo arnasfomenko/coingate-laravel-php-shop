@@ -111,9 +111,9 @@ class CartController extends Controller
       'price'             =>  request('total'),
       'currency'          =>  $currency,
       'receive_currency'  =>  $receive_currency,
-      'callback_url'      => 'http://127.0.0.1:8000/cart/callback?token='.$token,
-      'cancel_url'        => 'http://127.0.0.1:8000/cart',
-      'success_url'       => 'http://127.0.0.1:8000/myorders',
+      'callback_url'      => 'http://95.181.247.62/cart/callback?token='.$token,
+      'cancel_url'        => 'http://95.181.247.62/cart',
+      'success_url'       => 'hhttp://95.181.247.62/myorders',
      );
 
      //Package -> coingate-php
