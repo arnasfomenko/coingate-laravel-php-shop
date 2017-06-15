@@ -91,8 +91,6 @@ class CartController extends Controller
 
       $coingate_invoice_id = 'coingate'.rand();
 
-      //Order sumbition to the database
-
       $o = Order::create([
 
       'user_id'   => auth()->id(),
@@ -106,7 +104,7 @@ class CartController extends Controller
       //Post parameters , which are send to CoinGate
 
     $post_params = array(
-      'order_id'          =>  $o->id, // custom id
+      'order_id'          =>  $o->id,
       'token'             =>  $token,
       'price'             =>  request('total'),
       'currency'          =>  $currency,
