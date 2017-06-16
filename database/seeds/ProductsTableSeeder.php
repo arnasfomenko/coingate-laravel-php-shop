@@ -21,7 +21,7 @@ class ProductsTableSeeder extends Seeder
               'title' => 'Wrist Watch',
               'description' => 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
               'image' => 'watch.png',
-              'price' => 900.00
+              'price' => 950.00
 
             ),
 
