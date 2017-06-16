@@ -17,11 +17,11 @@
           <p>{{$product->description}}</p>
           <p><b>Price : {{$product->price}} $</b></p>
           <p><a class="btn btn-outline-primary" href="/cart/{{$product->id}}/add" role="button">Add to Cart &raquo;</a></p>
-        </div><!--/span-->
+        </div>
 
       @endforeach
-    </div><!--/row-->
-  </div><!--/span-->
+    </div>
+  </div>
 
   @include('partials.sidebar')
 
