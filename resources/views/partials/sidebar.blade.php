@@ -43,9 +43,11 @@ $totalPrice = $cart->totalPrice;
         <a href="/cart/destroy" class="btn btn-outline-primary">Empty cart</a>
         @endif
       @else
+        @if(Session::has('cart'))
         <a href="/cart/destroy" class="btn btn-outline-primary">Empty cart</a>
         <br>
         <b>Please <a href="/login"><u>Login</u></a> to checkout</b>
+        @endif
       @endif
     </div>
   </div>
