@@ -38,8 +38,10 @@ $totalPrice = $cart->totalPrice;
       </ul><br/>
       @endif
       @if(Auth::check())
+        @if(Session::has('cart'))
         <a href="/cart/checkout" class="btn btn-outline-primary">Checkout</a>
         <a href="/cart/destroy" class="btn btn-outline-primary">Empty cart</a>
+        @endif
       @else
         <a href="/cart/destroy" class="btn btn-outline-primary">Empty cart</a>
         <br>
